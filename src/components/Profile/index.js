@@ -9,6 +9,7 @@ const Profile = () => {
                 src="https://avatars.githubusercontent.com/u/77677763?v=4" 
                 alt="Avatar of user"
              />
+             
             <S.WrapperInfoUser>
     
                 <div>
