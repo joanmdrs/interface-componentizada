@@ -7,18 +7,41 @@ export const Wrapper = styled.div`
 
 export const WrapperStatusCount = styled.div`
     display: flex;
-    gap: 20px;
+    div {
+        margin: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 
 export const WrapperUsername = styled.div`
     display: flex;
     align-items: flex-start;
+    a {
+        text-decoration: none;
+        color: blue;
+    }
 `;
 
 export const WrapperInfoUser = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: red;
+
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
 `;
 
 export const WrapperImage = styled.img`
